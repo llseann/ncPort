@@ -8,6 +8,7 @@ input_data = input('Please input hosts and port: ')
 # 以空格分隔
 scan_row = input_data.split(' ')
 
+##
 if len(scan_row) != 2:
     print("Input errors, example \"192.168.209.0/24 80,443,22 \"")
     sys.exit(0)
